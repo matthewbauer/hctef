@@ -58,7 +58,7 @@ module.exports = function(body) {
     }
   }
 
-  if (body instanceof ArrayBuffer) {
+  if (body instanceof ArrayBuffer || (typeof Buffer !== 'undefined' && Buffer.isBuffer(body))) {
     this.arrayBuffer = function() {
       var rejected = consumed(this)
       if (rejected)
