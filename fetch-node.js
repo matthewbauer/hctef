@@ -9,7 +9,7 @@ var Headers = require('./headers')
 
 function fetchFile(request) {
 	return new Promise(function(resolve, reject) {
-		fs.readFile(request.url.substr(6), function(err, data) {
+		fs.readFile(request.url.substr(7), function(err, data) {
 			if (err)
 				reject(err)
 			resolve(data)
