@@ -7,7 +7,7 @@
     "opn": "^3.0.2"
   },
   "name": "hctef",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "fetch.js",
   "registry": "npm",
   "dependencies": {
