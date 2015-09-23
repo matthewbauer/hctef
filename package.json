@@ -9,6 +9,7 @@
   "name": "hctef",
   "version": "0.2.1",
   "main": "fetch.js",
+  "registry": "npm",
   "dependencies": {
     "detect-node": "^2.0.3"
   },
@@ -35,7 +36,6 @@
       "github:sindresorhus/ava@master": {
         "registry": "npm"
       }
-    },
-    "registry": "npm"
+    }
   }
 }
