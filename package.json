@@ -35,6 +35,7 @@
       "github:sindresorhus/ava@master": {
         "registry": "npm"
       }
-    }
+    },
+    "registry": "npm"
   }
 }
