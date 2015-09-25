@@ -1,4 +1,5 @@
 var Response = require('./response')
+var Headers = require('./headers')
 
 function headers(xhr) {
   var head = new Headers()
